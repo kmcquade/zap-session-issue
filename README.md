@@ -12,6 +12,10 @@ Run the following:
 
 This will run a spider using ZAP against Google Public Firing Range, save the session, kill Docker, and then load the session into ZAP Desktop.
 
-After it loads into ZAP Desktop, observe that the history tab is empty.
+After it loads into ZAP Desktop, observe that the URLs in the Spider tab is empty.
 
-![No HTTP Messages in History](./no-http-messages-history.png)
+![Empty spider tab](./spider-tab-docker-generated-session.png)
+
+But if you run it with ZAP Quick Start, you will see the URLs in the Spider tab.
+
+![Spider tab with URLs](./spider-tab-desktop-session.png)
